@@ -54,5 +54,6 @@ public class Test130_Get_Otp_From_Twilio_To_Amazon
 		String otp=temp.split(" ")[0]; // get spice from otp message
 		// Enter Otp
 		driver.findElement(By.xpath("//*[@type='tel']")).sendKeys(otp);
+		System.out.println("well dome bro");
 	}
 }
